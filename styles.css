@@ -1,0 +1,9 @@
+body {
+    background-color: #f4e9cd;
+    color: #37393a;
+}
+
+img {
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px #888888;
+}
