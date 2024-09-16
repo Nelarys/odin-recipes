@@ -1,9 +1,37 @@
+html {
+    background-color: #f4e9cd;
+}
+
 body {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
     background-color: #f4e9cd;
     color: #37393a;
+    box-shadow: 0 0 10px #888888;
+    min-height: 100vh;
 }
 
 img {
     border-radius: 2%;
     box-shadow: 5px 5px 5px #888888;
+}
+
+.recipes {
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.recipes li {
+    list-style-type: none;
+    background-color: #6a7fdb;
+    margin: 30px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
